@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing page</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-user-tie" id="nav_logo"> Diego</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Proficiências</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Cursos complementares</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Portfólio
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Proficiências</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Cursos complementares</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Portfólio
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Um pouco sobre
+                    <span>mim</span>
+                </h1>
+
+                <p class="description">
+                    Sou Diego, tenho 16 anos e sou programador em formação. Atualmente, estou no segundo ano do curso técnico em Informática no Instituto Federal, onde tenho a oportunidade de aprofundar meus conhecimentos em programação e tecnologia. Estou sempre em busca de novos desafios e de maneiras criativas de aplicar o que aprendo, tanto em projetos pessoais quanto em trabalhos em grupo.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#menu" class="btn-default">
+                        Habilidades
+                    </a>
+
+                    <a href="tel:+55 95 99120-8941" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (95) 99120-8941
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="tel:+55 95 99120-8941">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/diego_armando_tht/profilecard/?igsh=bmNhZWEwcm51NnNz">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://github.com/DiegoArmando4/Portf-lio">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/diego.png" alt="Aluno: Diego Armando. moreno, dos olhos escuros, pele negra">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Proficiências</h2>
+            <h3 class="section-subtitle">Minhas habilidades</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/html5.png" class="dish-image" alt="logo do HTML5">
+
+                    <h3 class="dish-title">
+                        HTML 5
+                    </h3>
+
+                    <span class="dish-description">
+                        HTML5 é a versão mais recente da linguagem de marcação HTML, usada para estruturar e exibir conteúdo na web, com suporte nativo para multimídia e recursos avançados de interação.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(Nível)</span>
+                    </div>
+
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/css3.png" class="dish-image" alt="Logo do CSS3">
+
+                    <h3 class="dish-title">
+                        CSS 3
+                    </h3>
+
+                    <span class="dish-description">
+                        CSS3 é a versão mais recente do CSS, usada para estilizar elementos da web com novos recursos como animações, transições, gradientes e layouts responsivos.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(Nível)</span>
+                    </div>
+
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/js.png" class="dish-image" alt="Logo do JavaScript">
+
+                    <h3 class="dish-title">
+                        JAVASCRIPT
+                    </h3>
+
+                    <span class="dish-description">
+                        JavaScript é uma linguagem de programação usada para criar interatividade e dinamismo em páginas da web, permitindo manipular elementos, responder a eventos e conectar-se a servidores.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(Nível)</span>
+                    </div>
+
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/php.png" class="dish-image" alt="Logo do PHP">
+
+                    <h3 class="dish-title">
+                        PHP
+                    </h3>
+
+                    <span class="dish-description">
+                        PHP é uma linguagem de script executada no servidor, usada principalmente para desenvolver sites dinâmicos e interativos, gerenciar dados e interagir com bancos de dados.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(Nível)</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/diego.png" id="testimonial_chef" alt="Aluno: Diego Armando. moreno, dos olhos escuros, pele negra">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Curricúlo
+                </h2>
+                <h3 class="section-subtitle">
+                    Cursos complementares
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="avatar genérico">
+
+                        <div class="feedback-content">
+                            <p>
+                                PHP básico 40 horas
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Curso básico de PHP com 40 horas de carga horária, da plataforma curso em vídeo
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="avatar genérico">
+
+                        <div class="feedback-content">
+                            <p>
+                                Redes de computadores 40 horas
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                               Curso básico de Redes de computadores, com 40 horas de carga horária, da plataforma Cisco
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Diego Armando
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="tel:+55 95 99120-8941">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.instagram.com/diego_armando_tht/profilecard/?igsh=bmNhZWEwcm51NnNz">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://github.com/DiegoArmando4/Portf-lio">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
